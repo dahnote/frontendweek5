@@ -1,0 +1,207 @@
+---
+title: table
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+
+<div class="d-flex justify-content-between">
+    <div class="d-flex align-items-center">
+        <div class="title">Admin</div>
+        <button type="button" class="d-flex align-items-center border-0 bg-transparent">
+            <span class="material-icons text-primary me-2">
+                add
+            </span>
+            Add New Admin
+        </button>
+    </div>
+    <div class="d-flex icon">
+        <a class="me-4 icon-color" href="#">
+            <span class="material-icons">
+                search
+            </span>
+        </a>
+        <a href="#">
+            <span class="material-icons icon-color">
+                notifications_active
+            </span>
+        </a>
+    </div>
+</div>
+<table class="table table-hover mb-7">
+    <thead>
+        <tr>
+            <th scope="col">
+                ID
+                <span class="material-icons arrow">
+                    arrow_downward
+                </span>
+            </th>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Verified</th>
+            <th class="tableIcon-title" scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>#1</td>
+            <td>Emir Wicks</td>
+            <td>emir.wicks@mail.com</td>
+            <td>yes</td>
+            <td class="text-center">
+                <button type="button" class="material-icons table-icon">
+                    visibility
+                </button>
+                <button type="button" class="material-icons table-icon">
+                    create
+                </button>
+            </td>
+        </tr>
+        <tr>
+            <td>#2</td>
+            <td>Zaina Goldsmith</td>
+            <td>zaina.goldsmith@mail.com</td>
+            <td>Yes</td>
+            <td class="text-center">
+                <button type="button" class="material-icons table-icon">
+                    visibility
+                </button>
+                <button type="button" class="material-icons table-icon">
+                    create
+                </button>
+            </td>
+        </tr>
+        <tr>
+            <td>#3</td>
+            <td>Mahima Lopez</td>
+            <td>Mahima.Lopez@mail.com</td>
+            <td>Yes</td>
+            <td class="text-center">
+                <button type="button" class="material-icons table-icon">
+                    visibility
+                </button>
+                <button type="button" class="material-icons table-icon">
+                    create
+                </button>
+            </td>
+        </tr>
+        <tr>
+            <td>#4</td>
+            <td>Pharrell Murray</td>
+            <td>Pharrell.Murray@mail.com</td>
+            <td>Yes</td>
+            <td class="text-center">
+                <button type="button" class="material-icons table-icon">
+                    visibility
+                </button>
+                <button type="button" class="material-icons table-icon">
+                    create
+                </button>
+            </td>
+        </tr>
+        <tr>
+            <td>#5</td>
+            <td>Annika Mcbride</td>
+            <td>Annika.Mcbride@mail.com</td>
+            <td>Yes</td>
+            <td class="text-center">
+                <button type="button" class="material-icons table-icon">
+                    visibility
+                </button>
+                <button type="button" class="material-icons table-icon">
+                    create
+                </button>
+            </td>
+        </tr>
+        <tr>
+            <td>#6</td>
+            <td>Fatimah Clark</td>
+            <td>Fatimah.Clark@mail.com</td>
+            <td>Yes</td>
+            <td class="text-center">
+                <button type="button" class="material-icons table-icon">
+                    visibility
+                </button>
+                <button type="button" class="material-icons table-icon">
+                    create
+                </button>
+            </td>
+        </tr>
+        <tr>
+            <td>#7</td>
+            <td>Klaudia Rhodes</td>
+            <td>Klaudia.Rhodes@mail.com</td>
+            <td>Yes</td>
+            <td class="text-center">
+                <button type="button" class="material-icons table-icon">
+                    visibility
+                </button>
+                <button type="button" class="material-icons table-icon">
+                    create
+                </button>
+            </td>
+        </tr>
+        <tr>
+            <td>#8</td>
+            <td>Tillie Lucero</td>
+            <td>Tillie.Lucero@mail.com</td>
+            <td>Yes</td>
+            <td class="text-center">
+                <button type="button" class="material-icons table-icon">
+                    visibility
+                </button>
+                <button type="button" class="material-icons table-icon">
+                    create
+                </button>
+            </td>
+        </tr>
+        <tr>
+            <td>#9</td>
+            <td>Sabrina Stephenson</td>
+            <td>Sabrina.Stephenson@mail.com</td>
+            <td>Yes</td>
+            <td class="text-center">
+                <button type="button" class="material-icons table-icon">
+                    visibility
+                </button>
+                <button type="button" class="material-icons table-icon">
+                    create
+                </button>
+            </td>
+        </tr>
+        <tr>
+            <td>#10</td>
+            <td>Annie Smith</td>
+            <td>annie.smith@mail.com</td>
+            <td>Yes</td>
+            <td class="text-center">
+                <button type="button" class="material-icons table-icon">
+                    visibility
+                </button>
+                <button type="button" class="material-icons table-icon">
+                    create
+                </button>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<!-- Pagination -->
+<nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-end">
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Previous">
+          <span aria-hidden="true">&laquo;</span>
+        </a>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Next">
+          <span aria-hidden="true">&raquo;</span>
+        </a>
+      </li>
+    </ul>
+  </nav>

@@ -1,0 +1,51 @@
+.logo{
+    background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/085a62fb22df4bf21c605a180648c6c6e35c2b32/week5/logo-ANSWER.svg) no-repeat;
+    width: 151px;
+    height: 40px;
+    display: block
+}
+.menu {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.menuList{          
+    &-link{
+        color: #121212;
+        font-weight: 700;
+        text-decoration:none;
+        padding-left:29px;
+        &:hover{
+            color: #121212;
+            background: #CDDDCD;
+        }
+        &.active{
+            box-shadow: 4px 0px 0px 0px #2A8356 inset;
+            color:#2A8356;
+        }
+    }
+    &-item{
+        padding-bottom:29px
+    }
+}
+.account{
+    &-img{
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        background-image: url('https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/andychen.jpeg?raw=true');  
+        background-size: cover;
+        background-position: center center;      
+    }
+    &-name{
+        font-size:16px;
+        margin-bottom: 4px;
+        font-weight: 500;
+    }
+    &-email{
+        font-size:14px;
+    }
+}
+.contents{
+    margin:32px;
+}
