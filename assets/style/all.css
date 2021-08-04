@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+body {
+  font-family: "Lato", "Noto Sans", "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", "Helvetica Neue", Arial, sans-serif;
+  line-height: 19px;
+  color: #9e9e9e; }
+
+.nav {
+  width: 296px;
+  min-height: 100vh;
+  background-color: #F8F9FA; }
+
+.contents {
+  width: 100%; }
+
+a:hover {
+  text-decoration: none; }
+
+img {
+  display: block; }
+
+ol, ul {
+  list-style: none; }
+
+.logo {
+  background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/085a62fb22df4bf21c605a180648c6c6e35c2b32/week5/logo-ANSWER.svg) no-repeat;
+  width: 151px;
+  height: 40px;
+  display: block; }
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.menuList-link {
+  color: #121212;
+  font-weight: 700;
+  text-decoration: none;
+  padding-left: 29px; }
+  .menuList-link:hover {
+    color: #121212;
+    background: #CDDDCD; }
+  .menuList-link.active {
+    -webkit-box-shadow: 4px 0px 0px 0px #2A8356 inset;
+            box-shadow: 4px 0px 0px 0px #2A8356 inset;
+    color: #2A8356; }
+
+.menuList-item {
+  padding-bottom: 29px; }
+
+.account-img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/andychen.jpeg?raw=true");
+  background-size: cover;
+  background-position: center center; }
+
+.account-name {
+  font-size: 16px;
+  margin-bottom: 4px;
+  font-weight: 500; }
+
+.account-email {
+  font-size: 14px; }
+
+.contents {
+  margin: 32px; }
+
+.title {
+  font-size: 24px;
+  line-height: 33px;
+  margin-right: 47px;
+  font-weight: 700;
+  color: #212529; }
+
+.icon-color {
+  color: #212529; }
+
+.arrow {
+  font-size: 12px; }
+
+.table-icon {
+  border: 0;
+  background: transparent; }
+
+/*# sourceMappingURL=all.css.map */
