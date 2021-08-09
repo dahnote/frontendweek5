@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title><%- title %></title>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/style/all.css">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg justify-content-around navbar-light bg-white p-0">
+      <div></div>
+      <a class="navbar-brand" href="#">EXHIBINECTION</a>
+      <div>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" aria-current="page" href="#">Sign in</a>
+            <a class="nav-link" href="#">Sign up</a>
+            <a class="icon nav-link position-relative" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="material-icons">
+                shopping_cart
+              </span>
+              <span class="position-absolute top-20 start-100 translate-middle badge rounded-pill bg-danger">3</span>
+            </a>
+          </div>
+        </div>
+        <!-- navbar-toggler -->
+        <button class="navbar-toggler border-0 position-relative" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="material-icons">
+            shopping_cart
+          </span>
+          <span class="position-absolute top-20 start-100 translate-middle badge rounded-pill bg-danger">3</span>
+        </button>
+    </div>
+    </nav>
+
+    <%- contents %>
+
+    <footer class="footer">
+      footer
+    </footer>
+
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+  </body>
+
+</html>
