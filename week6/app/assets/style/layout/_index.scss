@@ -100,3 +100,22 @@
     }
   }
 }
+.live{
+  &-bg{
+    background-image: url("../images/people2.png");
+    height: 482px;
+  }
+  &-cover{
+    padding: 2.5rem 1.25rem;
+    background-color: #190014CC;
+    @include media-breakpoint-down(md) {
+      width: auto;
+    }
+  }
+  .avatar{
+    margin-top:24px;
+    @include media-breakpoint-down(md) {
+      margin-top:12px;
+    }
+  }
+}
