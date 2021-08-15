@@ -127,12 +127,29 @@
       height: 345px;
       width: 345px;
     }
+    &-end{
+      height: 350px;
+      width: 255px;
+      @include media-breakpoint-down(md) {
+        height: 345px;
+        width: 345px;
+      }
+    }
   }
+  
   &-mr{
     margin-right:30px;
   }
 }
 
+.subscribe{
+  height: 400px;
+  background-position: center center;
+  background-size: cover;
+  .container{
+    padding-bottom: 32px;
+  }
+}
 
 .footer{
   .title{
