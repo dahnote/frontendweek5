@@ -1,0 +1,33 @@
+.product-Odd {
+  background-color: #630834;
+  padding-top: 80px;
+  padding-bottom: 52px;
+  @include media-breakpoint-down(md) {
+    padding-top: 44px;
+    padding-bottom: 44px;
+  }
+}
+.product-even {
+  background-color: #FFFFFF;
+  color:#630834;
+  padding-top: 80px;
+  padding-bottom: 52px;
+  @include media-breakpoint-down(md) {
+    padding-top: 44px;
+    padding-bottom: 44px;
+  }
+}
+.product {
+  &-date {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.25rem;
+    width: 39px;
+    @include media-breakpoint-down(lg) {
+      font-size: 1rem;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      width: auto;
+    }
+  }
+}
