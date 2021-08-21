@@ -6,6 +6,8 @@
 $font-family-base: 'Lato','Noto Sans','Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', "Microsoft JhengHei", "Helvetica Neue", Arial, sans-serif;
 
 $font-family-code: 'Roboto Mono', monospace;
+
 @import './utils/utilities'; 
+@import './components/alsoLike';
 @import './layout/index';
 @import './layout/product';
